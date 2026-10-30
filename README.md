@@ -54,12 +54,18 @@ Model Results
 
 The following results are recorded in the saved output of NLP_Modeling.ipynb:
 Model	Accuracy	Macro F1
-Logistic Regression (C=1, max_iter=1000, class_weight='balanced')	0.9037	0.8331
-Multinomial Naive Bayes	0.8901	0.6804
-Linear SVM (random_state=42)	0.9272	0.8446
+Logistic Regression (C=1, max_iter=1000, class_weight='balanced')	0.881762	0.798090
+Multinomial Naive Bayes	0.869397	0.568935
+Linear SVM (random_state=42)	0.892324	0.801229
 
 
-On the saved test-set results, Linear SVM performs best by both accuracy and macro F1. The target is imbalanced (the saved labels contain substantially more positive than negative examples), so macro F1 is useful alongside accuracy.
+On the saved test-set results, Linear SVM performs best by both accuracy and macro F1.
+
+
+
+The machine learning model has been successfully deployed and is accessible through the following link:
+
+Live Application: https://sentiment-analysis-on-amazon-product-9txh.onrender.com
 
 
 
